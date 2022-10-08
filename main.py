@@ -1,19 +1,16 @@
+# This is a sample Python script.
+
+# Press ⌃R to execute it or replace it with your code.
+# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    import pyautogui
-    import time
-    with open('log.txt', 'w') as fp:
-        fp.write(time.strftime("%m/%d", time.localtime()) + '\n')
+    print_hi('PyCharm')
 
-    # pyautogui.PAUSE = 2.5
-    # pyautogui.position()
-    #
-    # screenWidth, screenHeight = pyautogui.size()
-    # print(screenWidth, screenHeight)
-    # currentMouseX, currentMouseY = pyautogui.position()
-    # print(currentMouseX, currentMouseY)
-    #
-    # pyautogui.moveTo(100, 200, duration=0.2)
-
-
-    # b = pyautogui.alert(text='要开始程序么？', title='请求框', button='OK')
-    # print(b)  # 输出结果为OK
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
